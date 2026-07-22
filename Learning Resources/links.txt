@@ -1,4 +1,3 @@
 Multiple Code Files in C++: https://www.delftstack.com/howto/cpp/cpp-multiple-files/
-
-
 Header Files and Forward Declaration Practice: https://chatgpt.com/share/6a5b37f3-d96c-83ee-b4e4-5f86923830c1
+Redesigned System: https://chatgpt.com/c/6a6029eb-67cc-83ee-8bfa-dcaf4bb5dab2
