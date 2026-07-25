@@ -4,13 +4,15 @@
 class Action
 {
 private:
-  /* data */
+  
 public:
-  Action(/* args */);
+  Action();
   ~Action();
+  virtual void execute() = 0;
+  virtual void undo() = 0;
 };
 
-Action::Action(/* args */)
+Action::Action()
 {
 }
 
