@@ -5,7 +5,7 @@
 #include "Document.h";
 #include "Cursor.h";
 #include "HistoryManager.h";
-#include "SearchEngine.h"
+#include "SearchEngine.h";
 #include "DocumentStatistics.h";
 
 class EditorTab
@@ -26,13 +26,6 @@ public:
   void render();
 };
 
-EditorTab::EditorTab(/* args */)
-{
-}
-
-EditorTab::~EditorTab()
-{
-}
 
 
 

@@ -2,18 +2,18 @@
 #define CURSOR_H
 class Position;
 
-
 class Cursor
 {
 private:
-  Position* pos;
+  Position *pos;
+
 public:
-  Cursor(Position& pos);
+  Cursor();
+  Cursor(Position &pos);
   int getLine();
   int getColumn();
-  int setPosition(Position& pos);
+  int setPosition(Position &pos);
   ~Cursor();
 };
-
 
 #endif
