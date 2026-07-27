@@ -8,7 +8,7 @@ class VectorStorage : public ITextStorage
 {
 private:
   /* data */
-  vector<vector<char>> content;
+  std::vector<std::vector<char>> content;
 
   bool isValidPosition(Position& pos);
 public:
