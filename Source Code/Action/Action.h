@@ -1,6 +1,8 @@
 #ifndef ACTION_H
 #define ACTION_H
 
+class Document;
+
 class Action
 {
 private:
@@ -8,8 +10,8 @@ private:
 public:
   Action();
   ~Action();
-  virtual void execute() = 0;
-  virtual void undo() = 0;
+  virtual void execute(Document& doc) = 0;
+  virtual void undo(Document& doc) = 0;
 };
 
 Action::Action()

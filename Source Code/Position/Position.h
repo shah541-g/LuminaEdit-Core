@@ -8,6 +8,7 @@ private:
   int line;
   int column;
 public:
+  Position();
   Position(int line, int column);
   void setLineNumber(int line);
   void setColumnNumber(int column);

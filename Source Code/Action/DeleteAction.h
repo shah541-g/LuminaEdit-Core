@@ -2,19 +2,20 @@
 #define DELETEACTION_H
 
 #include "Action.h"
+#include "Position.h"
 
 class DeleteAction : public Action
 {
 private:
   /* data */
-  int position;
+  Position position;
   char character;
-
 public:
   DeleteAction(/* args */);
+  DeleteAction(Position pos);
   ~DeleteAction();
-  void execute() override;
-  void undo() override;
+  void execute(Document& doc) override;
+  void undo(Document& doc) override;
 };
 
 DeleteAction::DeleteAction(/* args */)

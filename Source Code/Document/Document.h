@@ -11,6 +11,9 @@ class Document{
   bool modified;
 
   public:
+  Document();
+  Document(ITextStorage* textStorage, std::string filePath);
+  char getCharacter(Position& pos);
   void load();
   void save();
   void insert(Position& pos, char newChar);
